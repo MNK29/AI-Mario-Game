@@ -1,0 +1,96 @@
+body{
+    background-size: cover;
+}
+
+.heading{
+    margin: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    background-color: burlywood;
+    padding: 10px;
+}
+
+.heading h3{
+    display: inline;
+    font-family: 'Tektur', cursive;
+    font-size: 40px;
+    color: rgb(255, 37, 37);
+    text-shadow: 2px 2px 5px orangered;
+}
+
+.logo{
+    box-shadow: 2px 2px 5px orangered;
+}
+
+.heading button{
+    float: right;
+    border: 1px solid white;
+    font-size: 27px;
+    color: white;
+    background: linear-gradient(to top left, #ff5050 0%, #ff0000 100%);
+}
+
+.heading button:hover{
+    color: white;
+}
+
+#start{
+    font-size: 30px !important;
+    background: linear-gradient(to bottom, #99ff33 0%, #66ff99 100%);
+}
+
+#status{
+    font-size: 25px;
+}
+
+#status:hover{
+    cursor: default;
+    background-color:  #d9534f;
+}
+
+.credit{
+    width: 100%;
+    background-color: burlywood;
+    margin-bottom: 0px;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    line-height: 2;
+    color: brown;
+    text-shadow: 1px 1px red;
+    font-size: 25px;
+}
+
+.credit a{
+    text-shadow: 1px 1px blue !important;
+}
+
+.model-dialouge{
+    width: fit-content;
+    margin-top: 9%;
+}
+
+.instru{
+    color: darkgreen;
+    text-shadow: 2px 2px 3px green;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.cross{
+    float: right;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    text-shadow: 2px 2px 3px crimson;
+    font-size: 40px !important;
+    color: red !important;
+    margin-right: 20px;
+}
+
+video{
+    background: url("game_console.png");
+    background-size: cover;
+    background-position: center;
+    padding: 25px;
+}
